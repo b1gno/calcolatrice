@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="calcolatrice.css">
+</head>
+<body>
+
+<div class="convertitore">
+    <h2>Calcolatrice</h2>
+    <input type="number" id="numero1" placeholder="Inserire il primo numero">
+    <input type="number" id="numero2" placeholder="Inserire il secondo numero">
+    <div class="da_a_a">
+        <select id="operazioni">
+            <option value="somma">Somma (+)</option>
+            <option value="differenza">Differenza (-))</option>
+            <option value="moltiplicazione">Moltipicazione (x)</option>
+            <option value="divisione">Divisione (÷)</option>
+        </select>
+    </div>
+    <br>
+    <button id="calcola">Calcola</button>
+    <div class="risultato" id="risultato"></div>
+</div>
+
+<script src="calcolatrice.js"></script>
+
+</body>
+</html>

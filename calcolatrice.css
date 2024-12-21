@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    margin-top: 80px;
+}body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.convertitore {
+    padding: 20px;
+    height: 400px;
+    width: 500px;
+    text-align: center;
+}
+
+.convertitore input{
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 16px;
+    width: 93%;
+}
+
+.da_a_a{
+    display: flex;
+}
+
+.convertitore select {
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 16px;
+    width: 100%;
+}
+
+.convertitore button {
+    padding: 10px;
+    font-size: 16px;
+    width: 20%;
+    background-color: white;
+    border: 2px, solid, black;
+    border-radius: 20px;
+}
+
+.convertitore button:hover {
+    background-color: lightgray;
+}
+
+.risultato {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
